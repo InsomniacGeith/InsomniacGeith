@@ -1,0 +1,35 @@
+
+*,::before,::after
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+
+}
+
+body
+{
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+    background-image: url(https://wallpaper.forfun.com/fetch/91/91473a7e5ba6c678e38f941bbad6469b.jpeg);
+    background-size: cover;
+    background-position: center;
+    padding: 0 1rem;
+}
+.header {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 62px;
+    background-color: rgba(0, 0, 0, 0.178);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}

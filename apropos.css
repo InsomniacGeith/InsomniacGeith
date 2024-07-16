@@ -1,0 +1,63 @@
+.apropos
+{
+    text-align: center;
+    color: #1ab9e0	;
+    font-size: xx-large;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 680px;
+    padding-right: 680px;
+    text-transform: uppercase;
+    background: rgba(219, 211, 211, 0.9);
+    
+}
+.apropos:hover
+{
+    color: yellow;
+    cursor:pointer;
+}
+.img img
+{
+    width: 645px;
+    border-radius: 8px;
+    transition: width 10s, height 10s;
+    transition-timing-function:ease-in;
+    transform-style:preserve-3d;
+    
+    
+}
+.img img:hover
+{
+    width: 400px;
+    height: 300px;
+}
+
+.home 
+{
+    
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+        overflow: auto;
+   
+}
+
+
+
+
+.rwo
+{
+   font-weight: 100;
+   font-size: x-large;
+   padding: 92px;
+   color: azure;
+
+}
+
+.rwo p
+{
+    font-size: xx-large;
+    font-family: Arial, Helvetica, sans-serif;
+    color: aliceblue;
+}

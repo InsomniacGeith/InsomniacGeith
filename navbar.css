@@ -1,0 +1,33 @@
+
+
+.logo {
+    font-size: 45px;
+    color: #fff;
+    position: relative;
+    float: inline-start;
+    
+}
+
+
+
+a
+{
+    text-decoration: none;
+    color: #fff;
+    font-size: 50px;
+    animation:alternate-reverse;
+
+}
+
+a:hover
+{
+    color: rgb(255, 0, 0);
+}
+
+
+.navbar {
+    display: block;
+    unicode-bidi: isolate;
+    font-size: 90px;
+}
+
